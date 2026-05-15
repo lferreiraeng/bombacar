@@ -1,11 +1,11 @@
 # Dependencies
 node_modules/
 
-# Local DB / runtime data (regenerável via seed)
-data.json
+# Local DB temp / SQLite (runtime)
 data.json.tmp
 data.db
 data.db-*
+# (data.json é commitado como seed inicial; em produção fica em /data via volume)
 
 # Env / secrets
 .env

@@ -1,7 +1,21 @@
 const fs = require('fs');
 const path = require('path');
 
-const FILE = path.join(__dirname, 'data.json');
+const DATA_DIR = process.env.DATA_DIR || __dirname;
+const FILE = path.join(DATA_DIR, 'data.json');
+const SEED_FILE = path.join(__dirname, 'data.json');
+
+// Seed inicial: se DATA_DIR for um volume vazio mas existe um data.json no bundle,
+// copia (apenas uma vez) para popular o banco do deploy.
+try {
+  if (DATA_DIR !== __dirname && !fs.existsSync(FILE) && fs.existsSync(SEED_FILE)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.copyFileSync(SEED_FILE, FILE);
+    console.log(`[db] seed inicial copiado para ${FILE}`);
+  }
+} catch (e) {
+  console.warn('[db] seed copy falhou:', e.message);
+}
 
 function load() {
   try {

@@ -96,16 +96,37 @@ bombacar/
 
 ---
 
-## 🌐 Deploy
+## 🌐 Deploy no Railway
 
-**Não é trivial.** O scraper depende de Chromium (~170MB) e o banco é em disco. Resumo dos caminhos viáveis:
+O projeto já vem com `Dockerfile` e `railway.toml` prontos.
 
-- **Railway / Render / Fly.io** ✅ — roda como está, dá pra adicionar volume persistente. Recomendado.
-- **VPS própria (Hetzner, Contabo, etc.)** ✅ — Node + PM2 + Nginx reverse-proxy.
-- **Vercel / Netlify Functions** ❌ — Chromium estoura limite de tamanho, FS read-only.
-- **Cloud Run / Lambda Container** ⚠️ — possível com imagem Docker customizada, mas custos podem subir.
+### Passo a passo
 
-Se for pra Railway, basta um `Dockerfile` baseado em `mcr.microsoft.com/playwright:v1.60.0-jammy` e expor a porta 3000.
+1. Acessa [railway.app](https://railway.app) e faz login com GitHub
+2. **New Project → Deploy from GitHub repo** → seleciona `bombacar`
+3. Railway detecta o `Dockerfile` e começa o build automaticamente
+4. **Adicionar volume persistente** (importante: sem ele os votos se perdem em cada redeploy):
+   - No painel do serviço → **Variables** confirme que não há `DATA_DIR` (já vem `/data` do Dockerfile)
+   - **Settings → Volumes → New Volume**
+   - Mount path: `/data`
+   - Save
+5. **Settings → Networking → Generate Domain** → você ganha um `*.up.railway.app`
+6. Acessa a URL — os **106 carros do seed** já vão estar lá (copiados via `db.js` na primeira boot)
+
+### Como funciona o seed inicial
+
+O `data.json` está commitado no repo (seed). No primeiro boot, `db.js` detecta que o volume `/data` está vazio e copia o `data.json` do bundle pra dentro do volume. A partir daí o volume é a fonte da verdade — votos persistem entre deploys.
+
+### Por que não Vercel/Netlify
+
+- Chromium tem ~170MB; o limite de função serverless é ~50MB
+- Filesystem read-only em runtime: votos e cadastros falham silenciosamente
+- Sem disco persistente nativo
+
+### Alternativas
+
+- **Fly.io** ✅ — `fly launch` + `fly volumes create` + `fly deploy`
+- **VPS própria** ✅ — Docker + Nginx reverse-proxy + Certbot
 
 ---
 
