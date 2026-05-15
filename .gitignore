@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Local DB / runtime data (regenerável via seed)
+data.json
+data.json.tmp
+data.db
+data.db-*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Tooling local
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright cache (já fica em %LOCALAPPDATA%, mas garantia)
+.playwright/
+
+# Debug
+debug_*.js
+debug_*.html
+debug_*.txt
+debug_*.json
+test_*.js

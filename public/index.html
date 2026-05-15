@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BombaCar — É bomba ou bom carro?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3a4 4 0 0 1 4 4v1a2 2 0 0 1-2 2h-1"/><circle cx="11" cy="14" r="7"/><path d="M11 11v3l2 2"/></svg>
+        </span>
+        <span class="brand-text">Bomba<span class="brand-accent">Car</span></span>
+        <span class="brand-tag">beta</span>
+      </a>
+
+      <nav class="topbar-stats" id="topStats" aria-label="Estatísticas globais">
+        <div class="stat-pill" title="Carros cadastrados">
+          <i data-icon="car"></i>
+          <span id="statCars">0</span>
+          <small>carros</small>
+        </div>
+        <div class="stat-pill bomba" title="Total de bombas">
+          <i data-icon="bomb"></i>
+          <span id="statBombas">0</span>
+          <small>bombas</small>
+        </div>
+        <div class="stat-pill bom" title="Total de bons">
+          <i data-icon="star"></i>
+          <span id="statBons">0</span>
+          <small>bons</small>
+        </div>
+      </nav>
+
+      <button id="openCadastro" class="btn-primary">
+        <i data-icon="plus"></i>
+        <span>Cadastrar carro</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="side side-left">
+      <div class="side-header">
+        <span class="side-icon bomba"><i data-icon="bomb"></i></span>
+        <div>
+          <h2>Top Bombas</h2>
+          <p>Os mais detonados</p>
+        </div>
+      </div>
+      <ul id="rankBomba" class="rank rank-bomba"></ul>
+    </aside>
+
+    <section class="stage">
+      <header class="stage-header">
+        <h1>Bomba ou bom carro?</h1>
+        <p>Veredito da galera sobre cada anúncio. Use ← → ou os botões.</p>
+      </header>
+
+      <div id="cardArea" class="card-area">
+        <div class="empty">
+          <i data-icon="car-empty"></i>
+          <p>Carregando carros...</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="voteBomba" class="action bomba" title="É uma bomba!" aria-label="Votar bomba">
+          <i data-icon="bomb"></i>
+          <span>Bomba</span>
+        </button>
+        <button id="skip" class="action skip" title="Pular" aria-label="Pular">
+          <i data-icon="skip"></i>
+        </button>
+        <button id="voteBom" class="action bom" title="Bom carro!" aria-label="Votar bom carro">
+          <i data-icon="star"></i>
+          <span>Bom carro</span>
+        </button>
+      </div>
+
+      <div class="hotkeys">
+        <kbd>←</kbd> bomba <span>·</span> <kbd>↑</kbd> pular <span>·</span> <kbd>→</kbd> bom carro <span>·</span> <kbd>A</kbd>/<kbd>D</kbd> trocar foto
+      </div>
+    </section>
+
+    <aside class="side side-right">
+      <div class="side-header">
+        <span class="side-icon bom"><i data-icon="star"></i></span>
+        <div>
+          <h2>Top Bons Carros</h2>
+          <p>Aprovados pela tribo</p>
+        </div>
+      </div>
+      <ul id="rankBom" class="rank rank-bom"></ul>
+    </aside>
+  </main>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModal" aria-label="Fechar"><i data-icon="x"></i></button>
+      <header class="modal-head">
+        <span class="modal-icon"><i data-icon="link"></i></span>
+        <div>
+          <h2>Cadastrar carro</h2>
+          <p>Cole o link de um anúncio da <strong>OLX</strong> ou <strong>Webmotors</strong>.</p>
+        </div>
+      </header>
+      <form id="formCadastro">
+        <label class="field">
+          <span>URL do anúncio</span>
+          <input
+            type="url"
+            id="urlInput"
+            placeholder="https://www.olx.com.br/..."
+            required
+            autocomplete="off"
+          />
+        </label>
+        <button type="submit" class="btn-primary btn-block" id="submitBtn">
+          <i data-icon="search"></i>
+          <span>Buscar e cadastrar</span>
+        </button>
+        <div id="formMsg" class="msg" role="status"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/icons.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
