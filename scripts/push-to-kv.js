@@ -10,12 +10,6 @@
 const fs = require('fs');
 const path = require('path');
 
-if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
-  console.error('❌ KV_REST_API_URL e KV_REST_API_TOKEN não estão definidos.');
-  console.error('   Exporte no shell ou crie um arquivo .env (copie .env.example).');
-  process.exit(1);
-}
-
 // Carrega .env se existir (best-effort, sem dependência)
 try {
   const envFile = path.join(__dirname, '..', '.env');
@@ -26,6 +20,12 @@ try {
     }
   }
 } catch {}
+
+if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
+  console.error('❌ KV_REST_API_URL e KV_REST_API_TOKEN não estão definidos.');
+  console.error('   Crie um arquivo .env (copie .env.example) ou exporte no shell.');
+  process.exit(1);
+}
 
 const { Redis } = require('@upstash/redis');
 const redis = Redis.fromEnv();
