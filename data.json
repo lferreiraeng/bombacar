@@ -103542,9 +103542,2610 @@
       "votes_bomba": 0,
       "votes_bom": 0,
       "created_at": "2026-05-16T15:41:06.235Z"
+    },
+    {
+      "id": 885,
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-320i-2023-1494563809",
+      "title": "BMW 320I 320i 2023",
+      "image": "https://img.olx.com.br/images/64/645636761868477.jpg",
+      "images": [
+        "https://img.olx.com.br/images/64/645636761868477.jpg",
+        "https://img.olx.com.br/images/67/678622764268502.jpg",
+        "https://img.olx.com.br/images/64/643654285939310.jpg",
+        "https://img.olx.com.br/images/89/890658168741777.jpg",
+        "https://img.olx.com.br/images/72/728616167183213.jpg",
+        "https://img.olx.com.br/images/70/708603647849677.jpg",
+        "https://img.olx.com.br/images/87/872602524365494.jpg",
+        "https://img.olx.com.br/images/68/687666409819285.jpg",
+        "https://img.olx.com.br/images/67/676600760869864.jpg",
+        "https://img.olx.com.br/images/64/641605283018512.jpg",
+        "https://img.olx.com.br/images/81/813676162561107.jpg"
+      ],
+      "price": "R$ 254.900",
+      "description": "BMW - 320I - 320i",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW 320i"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2023"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "45.000 km"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Cinza"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "0"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:12.074Z"
+    },
+    {
+      "id": 886,
+      "url": "https://sp.olx.com.br/sao-paulo-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-x4-xdrive-30i-m-sport-2-0-tb-252cv-aut-2022-1490440476",
+      "title": "BMW X4 Xdrive 30I M-sport 2.0 TB. 252cv AUT 2022",
+      "image": "https://img.olx.com.br/images/80/806624634666652.jpg",
+      "images": [
+        "https://img.olx.com.br/images/80/806624634666652.jpg",
+        "https://img.olx.com.br/images/82/826630634584517.jpg",
+        "https://img.olx.com.br/images/83/835601510767123.jpg",
+        "https://img.olx.com.br/images/84/844642272120601.jpg",
+        "https://img.olx.com.br/images/86/862653272806317.jpg",
+        "https://img.olx.com.br/images/88/887606630654154.jpg",
+        "https://img.olx.com.br/images/89/894670279302021.jpg",
+        "https://img.olx.com.br/images/90/900680630317830.jpg",
+        "https://img.olx.com.br/images/92/920623158805248.jpg",
+        "https://img.olx.com.br/images/93/936698511582212.jpg",
+        "https://img.olx.com.br/images/94/948682750524210.jpg",
+        "https://img.olx.com.br/images/95/951633033326198.jpg",
+        "https://img.olx.com.br/images/97/972695751912975.jpg",
+        "https://img.olx.com.br/images/99/997672514509781.jpg",
+        "https://img.olx.com.br/images/10/102660153030305.jpg",
+        "https://img.olx.com.br/images/11/115639518003332.jpg",
+        "https://img.olx.com.br/images/13/139622393659894.jpg",
+        "https://img.olx.com.br/images/15/153677636332514.jpg",
+        "https://img.olx.com.br/images/17/179655156375614.jpg",
+        "https://img.olx.com.br/images/18/181667630027356.jpg"
+      ],
+      "price": "R$ 329.990",
+      "description": "VENDO OU TROCO<br><br>BMWX4 30 i M SPORT 2.0 TURBO<br>VEICULO VITRIFICADO / CRISTALIZADO<br><br> M SPORT ARO 20 4 RUN FLAT <br>VOM TETO SOLAR PANORÂMICO<br> TODAS REVISOES NA CONCESSIONÁRIA <br>LAUDO CAUTELAR APROVADISSIMO <br> R$ 329.990,00 (ABAIXO DO VALOR DE ME<br> Ano:) 2022/2022<br> Km: 55.000<br> Completo<br> Partida Start Stop <br> Chave presencial<br> Interior MOCHA<br> Bancos Concha COURO<br> Ar condicionado digital dual zone<br> Sensor de troca de faixa <br> Sistema de som premium <br> DRL + Acendimento automático dos faróis <br> Farois de xênon a laser original de fábrica <br> Retrovisor elétrico <br> Volante multifuncional com comandos de som e ligação <br> Multimídia touchscreen Car play etc <br> Diversos sistemas de condução (Sport, economy, normal, individual , etc<br><br>X4 30 IM Sport 2.0T 16v - A/T<br>MOTORIZAÇÃO<br>Motorização TwinPower 2.0L VVT Turbo<br>Tipo 4 cilindros em linha<br>Válvulas 16 (4 por cilindro)<br>Alimentação Injeção eletrônica direta de alta precisão<br>Posição Longitudinal / Dianteiro<br>Combustível Etanol / Gasolina<br>Potência (cv) 256 (E) / 256(G)<br>Cilindradas (cm3) 1350<br>Torque (Kgf.m) 40,6 (E) / 40,6 (G)<br>Direção Elétrica<br>Tração Traseira<br>Transmissão Automática/Sequencial de 8 velocidades<br>DESEMPENHO<br>Velocidade máx (Km/h) 280<br>Tempo 0-100Km/h 5,4 s<br>Consumo cidade (Km/L) 7,4 (E) / 10,5 (G)<br>Consumo estrada (Km/L) 9,0 (E) / 13,1 (G)<br>SUSPENSÃO / FREIO / RODA<br>Suspensão traseira Independente Multlink com molas helicoidais<br>Freio dianteiro Disco Ventilado c/ ABS<br>Freio traseiro Disco Ventilado c/ ABS<br>Roda Aro 2P - Alumínio<br><br>WHATSAPP 11 972984022 ou ligue 11947680223<br><br>BUSCA OLX <br><br>AUDI - BMW - LAND ROVER - PORSCHE - JAGUAR - MINI<br><br>MARCH* UP* FOX* PRISMA* ONIX* HB20* KWID* SAVEIRO* VERSA* POLO* VIRTUS* UP TSI* FIAT 500* <br><br>REFERENCIA: <br>CIVIC - HRV - CRETA - COROLLA - BMW - AUDI - FIT - CRUZE - CITY - JETTA <br><br>RAV4 : MERCEDES : LAND : PASSAT : AZERA : SONATA : N",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Xdrive 30I M-sport 2.0 TB. 252cv AUT"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2022"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "55.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Preto"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "2"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Tração 4x4, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:20.602Z"
+    },
+    {
+      "id": 887,
+      "url": "https://mg.olx.com.br/regiao-de-divinopolis/autos-e-pecas/carros-vans-e-utilitarios/bmw-x1-sdrive-20i-2-0-2-0-tb-acti-flex-aut-2021-1496641842",
+      "title": "BMW X1 Sdrive 20I 2.0/2.0 TB Acti.flex Aut. 2021",
+      "image": "https://img.olx.com.br/images/36/368627152041816.jpg",
+      "images": [
+        "https://img.olx.com.br/images/36/368627152041816.jpg",
+        "https://img.olx.com.br/images/38/384658274553048.jpg",
+        "https://img.olx.com.br/images/39/391626512972365.jpg",
+        "https://img.olx.com.br/images/40/405673393236807.jpg",
+        "https://img.olx.com.br/images/41/418621158194181.jpg",
+        "https://img.olx.com.br/images/42/429645032516041.jpg",
+        "https://img.olx.com.br/images/44/445635399007009.jpg",
+        "https://img.olx.com.br/images/45/458624151918454.jpg",
+        "https://img.olx.com.br/images/47/478626631364825.jpg",
+        "https://img.olx.com.br/images/48/483662277595809.jpg",
+        "https://img.olx.com.br/images/49/498650871048285.jpg",
+        "https://img.olx.com.br/images/50/506655756085058.jpg",
+        "https://img.olx.com.br/images/52/529620157109750.jpg",
+        "https://img.olx.com.br/images/53/533641394509620.jpg",
+        "https://img.olx.com.br/images/54/543659637080893.jpg",
+        "https://img.olx.com.br/images/56/565693637256854.jpg",
+        "https://img.olx.com.br/images/57/571693759780353.jpg",
+        "https://img.olx.com.br/images/58/583607037413748.jpg",
+        "https://img.olx.com.br/images/60/603642873043039.jpg",
+        "https://img.olx.com.br/images/61/617615519768638.jpg"
+      ],
+      "price": "R$ 152.500",
+      "description": "BMW X1 SDRIVE 20i ACTIVE FLEX 2021 <br>AUTOMÁTICO <br>ANO 2021<br>SEM RETOQUES DE PINTURA <br>REVISÕES FEITAS NA CONCESSIONÁRIA<br>IPVA 2026 PAGO <br>4 PNEUS NOVOS <br>PAINEL 100% DIGITAL <br>LAUDO CAUTELAR DEKRA APROVADO <br><br>AR CONDICIONADO, FEITA RECENTEMENTE A TROCA DE FILTROS E LIMPESAS GERAL DOS DUTOS.<br><br>DIREÇÃO ELÉTRICA <br>ALARME COM ACIONAMENTO DOS VIDROS E TRAVAS ELÉTRICAS.<br><br>AIR BAGS FRONTAIS, LATERAIS DE CORTINAS, BANCOS E JOELHOS.<br>KIT MULTIMÍDIA COMPLETO.<br><br>RODAS BLACK PIANO ARO 20 COM QUATRO PNEUS NOVOS<br><br><br>INTERIOR IMPECÁVEL COM BANCOS COR GELO NOVOS E LIMPOS.<br><br>COR BRANCA <br>FAROIS DE MILHA LED <br>PEDAL SHIFT.<br><br>MANUAL E CHAVE RESERVA<br>NUNCA FOI BATIDO <br>NÃO POSSUI PASSAGEM POR LEILÃO NÃO.<br><br>TRATAR DIRETO COM O PROPRIETÁRIO NO CELULAR WHATSAPP.<br><br>37 - 99997-3040<br>BRUNO",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Sdrive 20I 2.0/2.0 TB Acti.flex Aut."
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2021"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "70.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:26.186Z"
+    },
+    {
+      "id": 888,
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-a-2-0-tb-m-sport-activeflex-16v-4p-2026-1482681659",
+      "title": "BMW 320I A 2.0 TB M Sport Activeflex 16V 4P 2026",
+      "image": "https://img.olx.com.br/images/56/563696868094961.jpg",
+      "images": [
+        "https://img.olx.com.br/images/56/563696868094961.jpg",
+        "https://img.olx.com.br/images/59/591668260549786.jpg",
+        "https://img.olx.com.br/images/60/601661143910317.jpg",
+        "https://img.olx.com.br/images/62/629635388793581.jpg",
+        "https://img.olx.com.br/images/64/648671869476118.jpg",
+        "https://img.olx.com.br/images/66/660663509354385.jpg",
+        "https://img.olx.com.br/images/70/709675264504575.jpg",
+        "https://img.olx.com.br/images/72/728667145266287.jpg",
+        "https://img.olx.com.br/images/74/744603501014815.jpg",
+        "https://img.olx.com.br/images/76/769671743567481.jpg",
+        "https://img.olx.com.br/images/79/795654740941865.jpg",
+        "https://img.olx.com.br/images/82/825629507527041.jpg",
+        "https://img.olx.com.br/images/84/847612621447679.jpg",
+        "https://img.olx.com.br/images/86/867624141293648.jpg",
+        "https://img.olx.com.br/images/88/883619147193910.jpg",
+        "https://img.olx.com.br/images/81/813698382431339.jpg",
+        "https://img.olx.com.br/images/39/394672742304719.jpg",
+        "https://img.olx.com.br/images/85/853655623346734.jpg",
+        "https://img.olx.com.br/images/87/877689744768340.jpg",
+        "https://img.olx.com.br/images/89/899685140426750.jpg"
+      ],
+      "price": "R$ 349.900",
+      "description": "Veículo de particular, ano 2026,<br>com apenas 3.500 km, <br>Ipva 2026 pago,<br>Licenciado 2026,<br>320i M Sport top de linha.<br>Cor cinza Brooklin, a cor mais desejada.<br>Na garantia de fábrica.<br>Chave reserva,<br>Manual do proprietário,<br>Nota fiscal,<br>Três modos de condução,<br>Painel digital curvo.<br>Câmera de ré 360 graus.<br>Bancos elétricos,<br>Abertura do porta malas elétrico,<br>Parck Assist,<br>Som assinado harman Kardon.<br>Teto solar,<br>Hedup Display,<br>Rodas 19 exclusivas do modelo M Sport.<br>Pacote de revisão gratuita contratado junto à BMW por R$10.000,00.<br>Ipva 2026 pago até setembro de 2027.<br>Grade dianteira em Black piano.<br>Esse carro está igual a um zero km, na concessionária que custa R$389.900,00.<br>Excelente custo benefício, considerando ipva e pacote dê revisões você economiza 50 k.",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A 2.0 TB M Sport Activeflex 16V 4P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2026"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "3.500 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Cinza"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "9"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:34.112Z"
+    },
+    {
+      "id": 889,
+      "url": "https://sp.olx.com.br/regiao-de-sorocaba/autos-e-pecas/carros-vans-e-utilitarios/bmw-x3-xdrive-30i-x-line-2-0-turbo-252cv-aut-2018-1501175626",
+      "title": "BMW X3 Xdrive 30I X-line 2.0 Turbo 252cv AUT 2018",
+      "image": "https://img.olx.com.br/images/31/310619888543388.jpg",
+      "images": [
+        "https://img.olx.com.br/images/31/310619888543388.jpg",
+        "https://img.olx.com.br/images/31/312645760088078.jpg",
+        "https://img.olx.com.br/images/35/350667529237245.jpg",
+        "https://img.olx.com.br/images/29/298638165966399.jpg",
+        "https://img.olx.com.br/images/30/309670285157423.jpg",
+        "https://img.olx.com.br/images/30/301698405090210.jpg",
+        "https://img.olx.com.br/images/28/289636884196890.jpg",
+        "https://img.olx.com.br/images/33/334625644184645.jpg",
+        "https://img.olx.com.br/images/29/297625041932240.jpg",
+        "https://img.olx.com.br/images/29/293623760142063.jpg",
+        "https://img.olx.com.br/images/31/316601167572436.jpg",
+        "https://img.olx.com.br/images/31/311615043933027.jpg",
+        "https://img.olx.com.br/images/30/305661161657487.jpg"
+      ],
+      "price": "R$ 167.900",
+      "description": "BMW X3 2.0 16V GASOLINA X LINE XDRIVE30I STEPTRONIC - 2018 / 2018<br><br><br>Movemos Participações e Investimentos. - [Cod. 4782260].",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Xdrive 30I X-line 2.0 Turbo 252cv AUT"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2018"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "0 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Preto"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "1"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Tração 4x4, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:38.571Z"
+    },
+    {
+      "id": 890,
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/autos-e-pecas/carros-vans-e-utilitarios/bmw-x1-sdrive-20i-2-0-2-0-tb-acti-flex-aut-2014-1486233281",
+      "title": "BMW X1 Sdrive 20I 2.0/2.0 TB Acti.flex Aut. 2014",
+      "image": "https://img.olx.com.br/images/88/882620266193603.jpg",
+      "images": [
+        "https://img.olx.com.br/images/88/882620266193603.jpg",
+        "https://img.olx.com.br/images/88/883606386517611.jpg",
+        "https://img.olx.com.br/images/88/884672626795927.jpg",
+        "https://img.olx.com.br/images/88/881643623297291.jpg",
+        "https://img.olx.com.br/images/88/882692260247260.jpg",
+        "https://img.olx.com.br/images/88/880612146602019.jpg",
+        "https://img.olx.com.br/images/88/888699388674526.jpg",
+        "https://img.olx.com.br/images/88/882602746049494.jpg",
+        "https://img.olx.com.br/images/88/888629386375485.jpg",
+        "https://img.olx.com.br/images/88/887617380849919.jpg"
+      ],
+      "price": "R$ 85.900",
+      "description": "Bmw X1 Sdrive 20I Gasolina 2014<br><br>*TOP DE LINHA IMPECAVEL COM APENAS 115 MIL KM TETO SOLAR CARAMELO VOLANTE MULTIFUNCIONAL CÂMBIO 6 MARCHAS CAMBIO BORBOLETA KIT MULTIMIDIA ORIGINAL SEM PASSAGEM POR LEILÃO OU SINISTRO MANUAL DE PROPRIETARIO CHAVE RESERVA<br><br>R$85.900,00<br>(TROCA CONSULTAR)<br><br>47 99926-3593 Rodrigo <br> 3207-7600 Gustavo<br> FHG MOTORS <br>Rua Papa João XXIII n 1001<br>Bairro Iririu <br>Joinville SC",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Sdrive 20I 2.0/2.0 TB Acti.flex Aut."
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2014"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "115.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Preto"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "4"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Computador de bordo, Conexão USB, Interface bluetooth, Rodas de liga leve, Sensor de ré, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:43.472Z"
+    },
+    {
+      "id": 891,
+      "url": "https://sp.olx.com.br/regiao-de-sorocaba/autos-e-pecas/carros-vans-e-utilitarios/bmw-x2-sdrive-20i-m-sport-2-0-tb-192cv-aut-2018-1501175924",
+      "title": "BMW X2 Sdrive 20I M Sport 2.0 TB 192cv AUT 2018",
+      "image": "https://img.olx.com.br/images/28/286648765065291.jpg",
+      "images": [
+        "https://img.olx.com.br/images/28/286648765065291.jpg",
+        "https://img.olx.com.br/images/28/288665762875238.jpg",
+        "https://img.olx.com.br/images/28/282663647746700.jpg",
+        "https://img.olx.com.br/images/27/273658407557082.jpg",
+        "https://img.olx.com.br/images/28/280604641758779.jpg",
+        "https://img.olx.com.br/images/28/287652765125798.jpg",
+        "https://img.olx.com.br/images/32/327659643774340.jpg",
+        "https://img.olx.com.br/images/29/292648281640005.jpg",
+        "https://img.olx.com.br/images/32/320618882504038.jpg",
+        "https://img.olx.com.br/images/27/277670765430074.jpg",
+        "https://img.olx.com.br/images/25/259667162830499.jpg",
+        "https://img.olx.com.br/images/33/335612525870381.jpg"
+      ],
+      "price": "R$ 157.900",
+      "description": "BMW X2 2.0 16V TURBO GASOLINA SDRIVE20I M SPORT X STEPTRONIC - 2018 / 2018<br><br><br>Movemos Participações e Investimentos. - [Cod. 4782254].",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Sdrive 20I M Sport 2.0 TB 192cv AUT"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2018"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "113.229 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Azul"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "9"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:41:48.569Z"
+    },
+    {
+      "id": 892,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-a-modern-sport-tb-2-0-a-flex-16v-4p-2014-1502564442",
+      "title": "BMW 320I A Modern/sport TB 2.0/a.flex 16V 4P 2014",
+      "image": "https://img.olx.com.br/images/31/314626887565585.jpg",
+      "images": [
+        "https://img.olx.com.br/images/31/314626887565585.jpg",
+        "https://img.olx.com.br/images/34/346657167281261.jpg",
+        "https://img.olx.com.br/images/37/371623646282842.jpg",
+        "https://img.olx.com.br/images/40/406608763024669.jpg",
+        "https://img.olx.com.br/images/42/425633045322337.jpg",
+        "https://img.olx.com.br/images/44/444646287491365.jpg",
+        "https://img.olx.com.br/images/46/467687405779500.jpg",
+        "https://img.olx.com.br/images/48/486609287836321.jpg",
+        "https://img.olx.com.br/images/50/507684165892558.jpg",
+        "https://img.olx.com.br/images/52/521616767424911.jpg",
+        "https://img.olx.com.br/images/54/542667767227945.jpg",
+        "https://img.olx.com.br/images/57/576667402733423.jpg",
+        "https://img.olx.com.br/images/58/586687644653975.jpg",
+        "https://img.olx.com.br/images/59/598606400535498.jpg"
+      ],
+      "price": "R$ 92.000",
+      "description": "Favor ler o anúncio completo<br><br>BMW 320i Sport Line<br>2013/2014<br>Gasolina<br><br>Incríveis 69.000 km <br>Conservação impecável.<br><br>Histórico de revisões completo (até 2020 em concessionária, posterior em oficinas especializadas BMW, com todas as NF pra comprovar)<br><br>(31)99756-1148 Vinícius<br><br>* Estética e Acabamento<br>? Bancos Esportivos: Com abas laterais proeminentes e ajustes elétricos de largura do encosto (pneumático).<br>? Volante Esportivo M: Revestido em couro com costuras vermelhas e Paddle Shifts.<br>? Detalhes Internos: Costuras vermelhas nos bancos, painel com filete horizontal em vermelho.<br>? Visual Externo: Grade dianteira com filetes em preto brilhante, retrovisores externos em preto brilhante e ponteira de escapamento preta.<br>? Rodas: Liga leve aro 17<br><br>* Segurança e Dinâmica<br>? 6 Airbags: Frontais, laterais e de cortina.<br>? Controle de Estabilidade (DSC) e Controle de Tração (DTC).<br>? Freios: ABS com distribuição eletrônica de frenagem (EBD) nas 4 rodas (discos ventilados).<br>? Driving Experience Control: Seletor de modos de condução no console (Eco Pro, Comfort, Sport e Sport+).<br>? Faróis Bi-Xenônio: Com regulagem automática de altura, lavadores integrados<br>? Faróis e lanternas de neblina.<br>? Pneus Run Flat.<br>? Sistema ISOFIX.<br><br>* Conforto e Tecnologia<br>? Ar-condicionado: Digital, automático e Dual Zone (com saídas independentes para o banco traseiro).<br>? Bancos Dianteiros Elétricos: Com regulagem de altura, distância e inclinação, além de 2 memórias para o banco do motorista.<br>? Controle automático de velocidade com função de frenagem automática em descidas.<br>? Limitador de Velocidade Eletrônico.<br>? Sensores Automáticos: Sensor de chuva (limpador de para-brisa) e sensor crepuscular (acendimento automático dos faróis).<br>? Sensor de Estacionamento: Traseiro com indicação gráfica na tela central.<br>? Sistema iDrive: Central multimídia com tela de 6,5 polegadas, conectividade Bluetooth, ent",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A Modern/sport TB 2.0/a.flex 16V 4P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2014"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "69.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:01.251Z"
+    },
+    {
+      "id": 893,
+      "url": "https://sp.olx.com.br/sao-paulo-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-i3-bev-full-170cv-aut-eletrico-2020-1489153633",
+      "title": "BMW I3 BEV Full 170cv Aut. (elétrico) 2020",
+      "image": "https://img.olx.com.br/images/69/691622860928333.jpg",
+      "images": [
+        "https://img.olx.com.br/images/69/691622860928333.jpg",
+        "https://img.olx.com.br/images/69/697613148690650.jpg",
+        "https://img.olx.com.br/images/69/690682021518440.jpg",
+        "https://img.olx.com.br/images/68/683636149130434.jpg",
+        "https://img.olx.com.br/images/68/687642141408785.jpg",
+        "https://img.olx.com.br/images/68/689677386308284.jpg",
+        "https://img.olx.com.br/images/68/684669384540740.jpg",
+        "https://img.olx.com.br/images/69/693670748420456.jpg",
+        "https://img.olx.com.br/images/69/697620742815177.jpg",
+        "https://img.olx.com.br/images/69/698676620691605.jpg",
+        "https://img.olx.com.br/images/68/684610142623093.jpg",
+        "https://img.olx.com.br/images/68/689622264601694.jpg",
+        "https://img.olx.com.br/images/69/690663626642103.jpg",
+        "https://img.olx.com.br/images/69/697691384562264.jpg",
+        "https://img.olx.com.br/images/69/693692149185337.jpg",
+        "https://img.olx.com.br/images/69/690659625705430.jpg",
+        "https://img.olx.com.br/images/69/696664623547220.jpg",
+        "https://img.olx.com.br/images/69/693637741680079.jpg",
+        "https://img.olx.com.br/images/68/683687147528603.jpg"
+      ],
+      "price": "R$ 134.990",
+      "description": "Bmw i3 EDrive Beb Full Elétrico 120AH , AUTOMÁTICO, completo com ar Condicionado Digital, Direção Elétrica,teto solar, bancos em couro premium, sistema de som Harman Kardon e assistentes de condução avançados, Airbags, Freios ABS, Computador de bordo, rodas de liga, Sistema Keyless, vidros e trava elétrica, sensor de estacionamento, câmera de ré, chave cópia e baixo km. Impecável. <br><br>FINANCIAMOS EM ATÉ 60 X. FAZEMOS TROCA COM TROCO !! <br>Trabalhamos com Diversos bancos  e facilitamos com parcelamento no cartão de crédito com baixa taxas de juros!!! <br>Entre em contato com vendedor .<br>Garantia de Motor e Câmbio de 1 ano - Consultem Condições<br><br><br><br>.",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW BEV Full 170cv Aut. (elétrico)"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2020"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "44.184 km"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Elétrico"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "2 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "5"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Navegador GPS, Rodas de liga leve, Sensor de ré, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:07.364Z"
+    },
+    {
+      "id": 894,
+      "url": "https://sp.olx.com.br/regiao-de-sorocaba/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-320i-2024-1501175109",
+      "title": "BMW 320I 320i 2024",
+      "image": "https://img.olx.com.br/images/23/234610286973435.jpg",
+      "images": [
+        "https://img.olx.com.br/images/23/234610286973435.jpg",
+        "https://img.olx.com.br/images/25/250609882319491.jpg",
+        "https://img.olx.com.br/images/25/255675408889470.jpg",
+        "https://img.olx.com.br/images/24/240605643840878.jpg",
+        "https://img.olx.com.br/images/28/285648648113642.jpg",
+        "https://img.olx.com.br/images/24/245613881502079.jpg",
+        "https://img.olx.com.br/images/23/230676405145629.jpg",
+        "https://img.olx.com.br/images/25/258660525426609.jpg",
+        "https://img.olx.com.br/images/29/293689640756185.jpg",
+        "https://img.olx.com.br/images/23/239602525104330.jpg",
+        "https://img.olx.com.br/images/29/299621522426459.jpg",
+        "https://img.olx.com.br/images/24/249674044623057.jpg",
+        "https://img.olx.com.br/images/24/240602163456810.jpg",
+        "https://img.olx.com.br/images/28/287690165758468.jpg",
+        "https://img.olx.com.br/images/24/247615401329262.jpg",
+        "https://img.olx.com.br/images/24/247696404409161.jpg",
+        "https://img.olx.com.br/images/26/266693164635516.jpg",
+        "https://img.olx.com.br/images/28/280695648346816.jpg",
+        "https://img.olx.com.br/images/25/252609526496182.jpg",
+        "https://img.olx.com.br/images/27/274688520754575.jpg"
+      ],
+      "price": "R$ 285.900",
+      "description": "BMW 320i 2.0 16V TURBO FLEX M SPORT AUTOMÁTICO - 2023 / 2024<br><br><br>Movemos Participações e Investimentos. - [Cod. 4782290].",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW 320i"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2024"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "33.916 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Azul"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "5"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:11.716Z"
+    },
+    {
+      "id": 895,
+      "url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-330i-m-sport-2-0-tb-16v-4p-2019-1502564543",
+      "title": "BMW 330I M Sport 2.0 TB 16V 4P 2019",
+      "image": "https://img.olx.com.br/images/56/562691166954038.jpg",
+      "images": [
+        "https://img.olx.com.br/images/56/562691166954038.jpg",
+        "https://img.olx.com.br/images/59/599690646247223.jpg",
+        "https://img.olx.com.br/images/62/621664289782231.jpg",
+        "https://img.olx.com.br/images/64/644654407326078.jpg",
+        "https://img.olx.com.br/images/67/678640768502266.jpg",
+        "https://img.olx.com.br/images/70/708654528780889.jpg",
+        "https://img.olx.com.br/images/72/726650528586173.jpg",
+        "https://img.olx.com.br/images/74/740616282022117.jpg",
+        "https://img.olx.com.br/images/76/766659281599216.jpg",
+        "https://img.olx.com.br/images/78/783660284592454.jpg",
+        "https://img.olx.com.br/images/80/802607286678699.jpg",
+        "https://img.olx.com.br/images/82/824686763582006.jpg"
+      ],
+      "price": "R$ 209.899",
+      "description": "BLINDADO DEFENSE <br>VIDROS ESTARGLAS<br>Modelo M Sport com teto <br><br>CAMARO BLINDADOS<br>AV DAS AMÉRICAS 7.700<br>( BARRA MALL)<br>TEL 21 99551-8348 FRANCISCO <br> 21 99611-5870 RODRIGO <br><br>VENDO TROCO FINANCIO!!!!<br>ACEITO SEU CARRO NA TROCA!!!!<br>NÃO PERDEMOS NEGÓCIO!!!!",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW M Sport 2.0 TB 16V 4P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2019"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "80.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Preto"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "3"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Blindado, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Tração 4x4, Trava elétrica, Vidro elétrico"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:17.196Z"
+    },
+    {
+      "id": 896,
+      "url": "https://pr.olx.com.br/regiao-de-curitiba-e-paranagua/autos-e-pecas/carros-vans-e-utilitarios/bmw-x1-xdrive-25i-sport-2-0-2-0-flex-aut-2020-1493250759",
+      "title": "BMW X1 Xdrive 25I Sport 2.0/2.0 Flex Aut. 2020",
+      "image": "https://img.olx.com.br/images/31/318699750795453.jpg",
+      "images": [
+        "https://img.olx.com.br/images/31/318699750795453.jpg",
+        "https://img.olx.com.br/images/31/318634751135426.jpg",
+        "https://img.olx.com.br/images/32/328626393789316.jpg",
+        "https://img.olx.com.br/images/31/318637631085301.jpg",
+        "https://img.olx.com.br/images/31/310612272416045.jpg",
+        "https://img.olx.com.br/images/31/317601278692151.jpg",
+        "https://img.olx.com.br/images/32/322623755749839.jpg",
+        "https://img.olx.com.br/images/32/325648394795537.jpg",
+        "https://img.olx.com.br/images/32/328687277519535.jpg",
+        "https://img.olx.com.br/images/32/327654396076601.jpg",
+        "https://img.olx.com.br/images/32/329601510499076.jpg",
+        "https://img.olx.com.br/images/32/328647155377293.jpg",
+        "https://img.olx.com.br/images/32/322608759043954.jpg",
+        "https://img.olx.com.br/images/31/313616510736252.jpg",
+        "https://img.olx.com.br/images/32/329640154628291.jpg",
+        "https://img.olx.com.br/images/32/325682872016577.jpg",
+        "https://img.olx.com.br/images/31/314694750936637.jpg",
+        "https://img.olx.com.br/images/31/310603759073131.jpg",
+        "https://img.olx.com.br/images/31/317605392538203.jpg",
+        "https://img.olx.com.br/images/31/315683514408002.jpg"
+      ],
+      "price": "R$ 169.900",
+      "description": "Hassan Multimarcas<br>Confiança, qualidade e economia em um só lugar.<br><br>Todos os nossos veículos são periciados, aprovados e possuem certificado de procedência, garantindo total segurança na sua compra.<br><br>Aceitamos seu semi-novo na troca e oferecemos financiamento com as melhores condições do mercado.<br>Agende sua visita e faça um test drive!<br><br>Parcelamento sem complicação:<br>Trabalhamos com todas as instituições financeiras<br>Cartão de crédito em até 18x com taxa da operadora.<br>Aceitamos carta de consórcio<br><br>Av. Comendador Franco, nº 3925 Jardim das Américas<br>(41) 99604-8777 | (41) 3117-8777",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Xdrive 25I Sport 2.0/2.0 Flex Aut."
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2020"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "57.086 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Cinza"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "2"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Teto solar, Tração 4x4, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:24.764Z"
+    },
+    {
+      "id": 897,
+      "url": "https://pe.olx.com.br/grande-recife/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-a-2-0-turbo-activeflex-16v-184cv-4p-2015-1499113044",
+      "title": "BMW 320I A 2.0 Turbo/activeflex 16V 184cv 4P 2015",
+      "image": "https://img.olx.com.br/images/53/535647282512919.jpg",
+      "images": [
+        "https://img.olx.com.br/images/53/535647282512919.jpg",
+        "https://img.olx.com.br/images/55/550647528470758.jpg",
+        "https://img.olx.com.br/images/56/569628761456183.jpg",
+        "https://img.olx.com.br/images/58/589602281711786.jpg",
+        "https://img.olx.com.br/images/60/602627167539952.jpg",
+        "https://img.olx.com.br/images/62/622608767549840.jpg",
+        "https://img.olx.com.br/images/63/630698525479073.jpg",
+        "https://img.olx.com.br/images/65/659669167805894.jpg",
+        "https://img.olx.com.br/images/67/676611520648831.jpg",
+        "https://img.olx.com.br/images/68/683618289723452.jpg",
+        "https://img.olx.com.br/images/70/707696168549555.jpg",
+        "https://img.olx.com.br/images/72/723677888474621.jpg"
+      ],
+      "price": "R$ 95.900",
+      "description": "Veículo sem detalhes,para clientes exigentes (como eu),com certeza a mais nova de Pernambuco e a única 2015 a venda com a configuração mais desejada q é a branca com interna caramelo,literalmente absolutamente nada pra fazer,é comprar e curtir",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A 2.0 Turbo/activeflex 16V 184cv 4P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2015"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "105.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Rodas de liga leve, Sensor de ré, Som, Tração 4x4, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:35.893Z"
+    },
+    {
+      "id": 898,
+      "url": "https://al.olx.com.br/alagoas/autos-e-pecas/carros-vans-e-utilitarios/bmw-x4-m40i-3-0-m-sport-edit-v6-turbo-aut-2022-1502563834",
+      "title": "BMW X4 M40i 3.0 M Sport Edit V6 Turbo Aut. 2022",
+      "image": "https://img.olx.com.br/images/52/520650642852447.jpg",
+      "images": [
+        "https://img.olx.com.br/images/52/520650642852447.jpg",
+        "https://img.olx.com.br/images/50/506636643877714.jpg",
+        "https://img.olx.com.br/images/53/535667284549962.jpg",
+        "https://img.olx.com.br/images/55/551616889966656.jpg",
+        "https://img.olx.com.br/images/52/523621763136800.jpg",
+        "https://img.olx.com.br/images/54/548636765869481.jpg",
+        "https://img.olx.com.br/images/51/512662048063558.jpg",
+        "https://img.olx.com.br/images/52/529659161184076.jpg",
+        "https://img.olx.com.br/images/50/500660765557978.jpg"
+      ],
+      "price": "R$ 369.900",
+      "description": "BMW X4 3.0 TWINPOWER GASOLINA M40I STEPTRONIC - 2022 / 2022<br><br><br>PS Prime Seminovos Premium. - [Cod. 4658681].",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW M40i 3.0 M Sport Edit V6 Turbo Aut."
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2022"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "40.800 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "3.0 - 3.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Mecânica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Cinza"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "4"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:40.650Z"
+    },
+    {
+      "id": 899,
+      "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-m2-coupe-3-0-turbo-24v-370cv-2024-1502563079",
+      "title": "BMW M2 Coupe 3.0 Turbo 24V 370cv 2024",
+      "image": "https://img.olx.com.br/images/80/801618280675666.jpg",
+      "images": [
+        "https://img.olx.com.br/images/80/801618280675666.jpg",
+        "https://img.olx.com.br/images/82/826642528837218.jpg",
+        "https://img.olx.com.br/images/89/897605164122879.jpg",
+        "https://img.olx.com.br/images/97/975676886741672.jpg",
+        "https://img.olx.com.br/images/16/168636521951544.jpg",
+        "https://img.olx.com.br/images/24/242684525150372.jpg",
+        "https://img.olx.com.br/images/25/252680523657512.jpg",
+        "https://img.olx.com.br/images/27/278633401324087.jpg",
+        "https://img.olx.com.br/images/30/303682405088647.jpg",
+        "https://img.olx.com.br/images/32/321691049673107.jpg",
+        "https://img.olx.com.br/images/36/365635529236027.jpg",
+        "https://img.olx.com.br/images/38/386695644571595.jpg"
+      ],
+      "price": "R$ 558.084",
+      "description": "Estado de zero km, na garantia até 2027, sem nenhum detalhe ou arranhão , com os plásticos ainda não foram retirados, 3 anos de revisões grátis. PPF total em torno do carro R$ 25 k, Ipva 2026 pago. Insulfilm anti-vandalismo 3 k. Dispenso curiosos e golpistas",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Coupe 3.0 Turbo 24V 370cv"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2024"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "11.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "3.0 - 3.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Manual"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Preto"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "2 portas"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:42:48.504Z"
+    },
+    {
+      "id": 900,
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/autos-e-pecas/carros-vans-e-utilitarios/bmw-x7-m50i-4-4-v8-bi-tb-aut-2022-1481508119",
+      "title": "BMW X7 M50i 4.4 V8 Bi-TB AUT 2022",
+      "image": "https://img.olx.com.br/images/55/555638494363630.jpg",
+      "images": [
+        "https://img.olx.com.br/images/55/555638494363630.jpg",
+        "https://img.olx.com.br/images/55/558600613799076.jpg",
+        "https://img.olx.com.br/images/55/554644139411975.jpg",
+        "https://img.olx.com.br/images/55/559633016998571.jpg",
+        "https://img.olx.com.br/images/55/559606010042284.jpg",
+        "https://img.olx.com.br/images/55/555655490690251.jpg",
+        "https://img.olx.com.br/images/55/555602494659556.jpg",
+        "https://img.olx.com.br/images/55/550613372904429.jpg",
+        "https://img.olx.com.br/images/55/553616618622163.jpg",
+        "https://img.olx.com.br/images/55/557634378269635.jpg",
+        "https://img.olx.com.br/images/55/559612732701582.jpg",
+        "https://img.olx.com.br/images/56/562663736021574.jpg",
+        "https://img.olx.com.br/images/55/551618371807647.jpg",
+        "https://img.olx.com.br/images/55/558649253109820.jpg"
+      ],
+      "price": "R$ 674.900",
+      "description": "WHATSAPP 47999692684 com Diego, ou (47) 3 3 2 6 - 3 3 9 1. BMW X7 4.4 V8 M50I GASOLINA AUTOMÁTICO 2022, 7 LUGARES, CÂMBIO AUTOMÁTICO DE 8 MARCHAS, TODAS REVISÕES EM CONCESSIONÁRIA, APENAS 55.500 KM, 4 PNEUS NOVOS, TV DIGITAL, PORTAS COM FECHAMENTO ASSISTIDO, CHAVE DIGITAL VIA NFC OU BLUETOOTH, FÁROIS DE LASER, TETO SOLAR PANORÂMICO E DESLIZANTE, CHAVE PRESENCIAL, LUZ DIURNA DE LED, RELÓGIO DIGITAL, HEAD-UP DYSPLAY, SISTEMA DE FREIOS AUTO-HOLD, CÂMERA 360°, CENTRAL MULTIMÍDIA COM GPS, FRENAGEM AUTOMÁTICA DE EMÊRGENCIA, LUZ DE NEBLINA TRASEIRA, AIR BAGS FRONTAIS, LATERAIS E DE CORTINA, ALERTA DE COLISÃO, ALERTA DE MUDANÇA DE FAIXA, MANUAL DE PROPRIETÁRIO, CHAVE RESERVA... Nossa empresa afiliada a Assovesc (ASSOCIAÇÃO DOS REVENDEDORES DE VEÍCULOS AUTOMOTORES DO ESTADO DE SANTA CATARINA). HÁ 26 ANOS NO MESMO LOCAL, TRABALHANDO COM TRANSPARÊNCIA E QUALIDADE!!!",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW M50i 4.4 V8 Bi-TB AUT"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2022"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "55.500 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "4.0 ou mais"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Preto"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "9"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Navegador GPS, Rodas de liga leve, Sensor de ré, Teto solar, Tração 4x4, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:12.395Z"
+    },
+    {
+      "id": 901,
+      "url": "https://rn.olx.com.br/rio-grande-do-norte/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-a-2-0-turbo-activeflex-16v-184cv-4p-2015-1502562686",
+      "title": "BMW 320I A 2.0 Turbo/activeflex 16V 184cv 4P 2015",
+      "image": "https://img.olx.com.br/images/44/444690644616888.jpg",
+      "images": [
+        "https://img.olx.com.br/images/44/444690644616888.jpg",
+        "https://img.olx.com.br/images/45/456668163137529.jpg",
+        "https://img.olx.com.br/images/46/463611761332003.jpg",
+        "https://img.olx.com.br/images/47/478671647666605.jpg",
+        "https://img.olx.com.br/images/48/482680522817772.jpg",
+        "https://img.olx.com.br/images/50/504644648569409.jpg"
+      ],
+      "price": "R$ 95.900",
+      "description": "Vendo BMW 320I, 113.100 km.<br>O carro possui ar condicionado, vidros e travas elétricas, sistema de som, conexão USB, bluetooth e câmera de ré para manobras mais seguras.<br>Para mais informações, entre em contato!84988086532 apenas wattsapp",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A 2.0 Turbo/activeflex 16V 184cv 4P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2015"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "113.100 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:16.309Z"
+    },
+    {
+      "id": 902,
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/autos-e-pecas/carros-vans-e-utilitarios/bmw-120i-a-sport-2-0-activeflex-16v-aut-2016-1482756476",
+      "title": "BMW 120I A Sport 2.0 Activeflex 16V Aut. 2016",
+      "image": "https://img.olx.com.br/images/80/804663251454326.jpg",
+      "images": [
+        "https://img.olx.com.br/images/80/804663251454326.jpg",
+        "https://img.olx.com.br/images/53/531623130142330.jpg",
+        "https://img.olx.com.br/images/17/176605014001295.jpg",
+        "https://img.olx.com.br/images/99/995657735612209.jpg",
+        "https://img.olx.com.br/images/79/798661859520923.jpg",
+        "https://img.olx.com.br/images/84/840613137062820.jpg",
+        "https://img.olx.com.br/images/61/611672379937137.jpg",
+        "https://img.olx.com.br/images/94/942682855597406.jpg",
+        "https://img.olx.com.br/images/40/400683371524222.jpg",
+        "https://img.olx.com.br/images/38/387632737509515.jpg",
+        "https://img.olx.com.br/images/86/865653617738166.jpg",
+        "https://img.olx.com.br/images/99/992679253560287.jpg",
+        "https://img.olx.com.br/images/85/854630252360089.jpg",
+        "https://img.olx.com.br/images/88/886697855538691.jpg",
+        "https://img.olx.com.br/images/19/193614131402405.jpg",
+        "https://img.olx.com.br/images/37/376618617511542.jpg",
+        "https://img.olx.com.br/images/75/754629131604022.jpg",
+        "https://img.olx.com.br/images/21/214679617543769.jpg",
+        "https://img.olx.com.br/images/21/213621737125201.jpg",
+        "https://img.olx.com.br/images/86/865681131111698.jpg"
+      ],
+      "price": "R$ 101.900",
+      "description": "*** Bmw 120i Sport 2016, Lindo carro, em perfeito estado de conservação<br>* Somente 85.164 km rodado<br>* Acabamento premium <br>* Capa para cobrir o carro<br>* Pneus em ótimo estado<br>* Manual e chave reserva<br>* Revisada com garantia <br><br><br>Curta nossas páginas e fique por dentro das novidades:<br>https://www.facebook.com/sccarro.itajai<br>https://www.instagram.com/sccarro.itajai<br>www.sccarro.com<br>Rua Irineu Bornhausen, 1201 Caninana - Itajaí - SC<br>* Pegamos seu CARRO ou MOTO com a melhor avaliação<br>* Trabalhamos com todos os bancos para financiamentos/consórcios.<br>* Parcelamos entrada em até 12X no cartão de crédito<br>Único dono,IPVA pago,Chave Reserva,Manual do Proprietário,Nota Fiscal<br>Air bag motorista<br>Air bag passageiro<br>Alarme<br>Ar condicionado<br>Ar quente<br>Banco do motorista com ajuste de altura<br>Capota marítima<br>Central multimídia<br>Computador de bordo<br>Controle automático de velocidade<br>Controle de tração<br>Direção hidráulica<br>Encosto de cabeça traseiro<br>Entrada USB<br>Farol de milha<br>Faróis Regulagem Altura<br>Freio ABS<br>GPS<br>Piloto automático<br>Retrovisores elétricos<br>Rodas de liga leve<br>Rádio<br>Sensor de chuva<br>Sensor de estacionamento<br>Travas elétricas<br>Vidros elétricos<br>Volante escamoteável",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A Sport 2.0 Activeflex 16V Aut."
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2016"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "85.201 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "3"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Computador de bordo, Conexão USB, Controle automático de velocidade, Rodas de liga leve, Sensor de ré, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:21.171Z"
+    },
+    {
+      "id": 903,
+      "url": "https://sp.olx.com.br/sao-paulo-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-x1-sdrive-20i-x-line-2-0-tb-active-flex-2022-1500066095",
+      "title": "BMW X1 Sdrive 20I X-line 2.0 TB Active Flex 2022",
+      "image": "https://img.olx.com.br/images/29/294671283268164.jpg",
+      "images": [
+        "https://img.olx.com.br/images/29/294671283268164.jpg",
+        "https://img.olx.com.br/images/54/541667761901025.jpg",
+        "https://img.olx.com.br/images/17/172655764471768.jpg",
+        "https://img.olx.com.br/images/50/508667643915646.jpg",
+        "https://img.olx.com.br/images/60/608619400042009.jpg",
+        "https://img.olx.com.br/images/22/227602645083051.jpg",
+        "https://img.olx.com.br/images/34/345649884550176.jpg",
+        "https://img.olx.com.br/images/91/911662164341464.jpg",
+        "https://img.olx.com.br/images/26/269675526299565.jpg",
+        "https://img.olx.com.br/images/64/644652285606161.jpg",
+        "https://img.olx.com.br/images/43/433694528453279.jpg",
+        "https://img.olx.com.br/images/10/101639160262800.jpg",
+        "https://img.olx.com.br/images/41/415611283463309.jpg",
+        "https://img.olx.com.br/images/98/983604289615135.jpg"
+      ],
+      "price": "R$ 170.990",
+      "description": "GRUPO TORIBA BARRA FUNDA - SEMINOVO REVISÃO E COM GARANTIA DE PROCEDÊNCIA   AV. MARQUES DE SAO VICENTE, 2055 BARRA FUNDA - TORIBA OMODA - JAECOO (BARRA FUNDA) (AV. MARQUES DE SAO VICENTE, 2055 - VARZEA DA BARRA FUNDA - SAO PAULO - SP) - BMW X1 2.0 16V TURBO ACTIVEFLEX SDRIVE20I X-LINE - 2022 2022 - PRETO - FLEX - 4P - 48421KM",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Sdrive 20I X-line 2.0 TB Active Flex"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2022"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "48.421 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "2"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Navegador GPS, Rodas de liga leve, Sensor de ré, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:25.863Z"
+    },
+    {
+      "id": 904,
+      "url": "https://sc.olx.com.br/florianopolis-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-x1-sdrive-18i-2-0-16v-4x2-aut-2013-1502561462",
+      "title": "BMW X1 Sdrive 18I 2.0 16V 4X2 Aut. 2013",
+      "image": "https://img.olx.com.br/images/17/175617044337719.jpg",
+      "images": [
+        "https://img.olx.com.br/images/17/175617044337719.jpg",
+        "https://img.olx.com.br/images/19/193659528592134.jpg",
+        "https://img.olx.com.br/images/21/211641888369494.jpg",
+        "https://img.olx.com.br/images/23/233696407101947.jpg",
+        "https://img.olx.com.br/images/24/249662288386258.jpg",
+        "https://img.olx.com.br/images/26/268612769079179.jpg",
+        "https://img.olx.com.br/images/27/278634167575392.jpg",
+        "https://img.olx.com.br/images/29/293626168035967.jpg",
+        "https://img.olx.com.br/images/30/301641765700519.jpg",
+        "https://img.olx.com.br/images/31/313613761497642.jpg",
+        "https://img.olx.com.br/images/33/338690521076860.jpg",
+        "https://img.olx.com.br/images/34/344688282651193.jpg"
+      ],
+      "price": "R$ 72.900",
+      "description": "Vendo BMW X1 2013 2.0 excelente estado de conservação, carro realmente diferenciado, com apenas 117mil km rodados. Completissima, e mais multimídia de 10 polegadas com espelhamento de celular sem fio. Película de nano cerâmica. Pneus praticamente novos. Revisada. Óleos e filtros trocados recentemente, inclusive do câmbio automático. Aceito veículo de menor valor + volta em dinheiro. Se for preciso, consigo financiar. Ficou interessado? Entre em contato comigo 48999762400",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW Sdrive 18I 2.0 16V 4X2 Aut."
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2013"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "117.200 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Gasolina"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Prata"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Navegador GPS, Rodas de liga leve, Sensor de ré, Som, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:32.653Z"
+    },
+    {
+      "id": 905,
+      "url": "https://sp.olx.com.br/sao-paulo-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-320i-a-gt-sport-2-0-turbo-16v-184cv-5p-2022-1496632602",
+      "title": "BMW 320I A GT Sport 2.0 Turbo 16V 184cv 5P 2022",
+      "image": "https://img.olx.com.br/images/26/263649634812757.jpg",
+      "images": [
+        "https://img.olx.com.br/images/26/263649634812757.jpg",
+        "https://img.olx.com.br/images/26/261653519192519.jpg",
+        "https://img.olx.com.br/images/27/275681396895758.jpg",
+        "https://img.olx.com.br/images/26/262683873325798.jpg",
+        "https://img.olx.com.br/images/26/266650150322604.jpg",
+        "https://img.olx.com.br/images/27/271674634719378.jpg",
+        "https://img.olx.com.br/images/27/278673750350218.jpg",
+        "https://img.olx.com.br/images/26/263665751772325.jpg",
+        "https://img.olx.com.br/images/26/261641035371954.jpg",
+        "https://img.olx.com.br/images/26/265694395979539.jpg",
+        "https://img.olx.com.br/images/26/263624758945496.jpg",
+        "https://img.olx.com.br/images/27/279670756457861.jpg",
+        "https://img.olx.com.br/images/26/267624155884529.jpg",
+        "https://img.olx.com.br/images/26/260623759200485.jpg",
+        "https://img.olx.com.br/images/27/271603873242780.jpg",
+        "https://img.olx.com.br/images/27/274681753849862.jpg",
+        "https://img.olx.com.br/images/27/278683637363899.jpg",
+        "https://img.olx.com.br/images/27/270615278506516.jpg",
+        "https://img.olx.com.br/images/26/264692157404451.jpg",
+        "https://img.olx.com.br/images/26/264667153534672.jpg"
+      ],
+      "price": "R$ 238.900",
+      "description": "Blindado Nível III-A Carbon com vidros Graffeno-III, teto solar translúcido e revisão completa em concessionária. Motor Turbo ActiveFlex e câmbio automático, versão Modern/Sport. Central multimídia com Android Auto/Apple CarPlay, painel digital, ar?condicionado dual zone, bancos em couro, sensores de estacionamento, câmera de ré, rodas de liga leve e faróis em LED. Loja certificada pelo Exército Brasileiro para comercialização de veículos blindados. Oferecemos excelente avaliação na troca, financiamento com ótimas taxas e possibilidade de entrada no cartão (consulte condições).",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A GT Sport 2.0 Turbo 16V 184cv 5P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2022"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "29.319 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Elétrica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Azul"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "9"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Blindado, Trava elétrica, Vidro elétrico"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Não"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Não"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:38.508Z"
+    },
+    {
+      "id": 906,
+      "url": "https://sc.olx.com.br/florianopolis-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/bmw-328i-a-2-0-tb-2-0-tb-flex-16v-4p-2014-1501700144",
+      "title": "BMW 328I A 2.0 TB/2.0 TB Flex 16V 4P 2014",
+      "image": "https://img.olx.com.br/images/72/722696042933786.jpg",
+      "images": [
+        "https://img.olx.com.br/images/72/722696042933786.jpg",
+        "https://img.olx.com.br/images/92/923608404381573.jpg",
+        "https://img.olx.com.br/images/10/100633769357659.jpg",
+        "https://img.olx.com.br/images/13/133685283260839.jpg",
+        "https://img.olx.com.br/images/23/233660529937169.jpg",
+        "https://img.olx.com.br/images/33/331618045560017.jpg",
+        "https://img.olx.com.br/images/43/437693766131142.jpg",
+        "https://img.olx.com.br/images/56/569680160265370.jpg",
+        "https://img.olx.com.br/images/64/640627649580230.jpg",
+        "https://img.olx.com.br/images/65/653647886864371.jpg",
+        "https://img.olx.com.br/images/71/716605281761566.jpg",
+        "https://img.olx.com.br/images/74/740620401008433.jpg",
+        "https://img.olx.com.br/images/83/830659041931760.jpg",
+        "https://img.olx.com.br/images/90/905613761156010.jpg",
+        "https://img.olx.com.br/images/94/940665281141971.jpg",
+        "https://img.olx.com.br/images/98/982690523521030.jpg",
+        "https://img.olx.com.br/images/14/143645523368276.jpg",
+        "https://img.olx.com.br/images/17/170637523262391.jpg",
+        "https://img.olx.com.br/images/22/229653647262958.jpg"
+      ],
+      "price": "R$ 104.900",
+      "description": "Casamento tranquilo demais? Conta bancária estável? Nenhum problema na vida?<br><br>Um BMW resolve isso rapidinho.<br><br>Motor 2.0 turbo de 245 cv que não pede desculpa pra ninguém. Jetta olha de longe e respeita.<br>Óleo Motul 8100, o que a BMW pede. <br><br>Quatro pneus Delinte de alta performance com menos de 10 mil km. <br>Freio traseiro trocado recentemente. <br>Manutenção em dia, sem absolutamente nada pendente.<br><br>O carro é lindo, anda bem e só vai te custar a paz de espírito que você ainda tem.<br><br>Interessou? Chama.",
+      "source": "olx",
+      "properties": [
+        {
+          "name": "vehicle_model",
+          "label": "Modelo",
+          "value": "BMW A 2.0 TB/2.0 TB Flex 16V 4P"
+        },
+        {
+          "name": "vehicle_brand",
+          "label": "Marca",
+          "value": "BMW"
+        },
+        {
+          "name": "regdate",
+          "label": "Ano",
+          "value": "2014"
+        },
+        {
+          "name": "mileage",
+          "label": "Quilometragem",
+          "value": "135.000 km"
+        },
+        {
+          "name": "motorpower",
+          "label": "Potência do motor",
+          "value": "2.0 - 2.9"
+        },
+        {
+          "name": "fuel",
+          "label": "Combustível",
+          "value": "Flex"
+        },
+        {
+          "name": "gearbox",
+          "label": "Câmbio",
+          "value": "Automático"
+        },
+        {
+          "name": "car_steering",
+          "label": "Direção",
+          "value": "Eletro-hidráulica"
+        },
+        {
+          "name": "carcolor",
+          "label": "Cor",
+          "value": "Branco"
+        },
+        {
+          "name": "doors",
+          "label": "Portas",
+          "value": "4 portas"
+        },
+        {
+          "name": "end_tag",
+          "label": "Final de placa",
+          "value": "3"
+        },
+        {
+          "name": "car_features",
+          "label": "Opcionais",
+          "value": "Air bag, Ar condicionado, Alarme, Bancos de couro, Câmera de ré, Computador de bordo, Conexão USB, Controle automático de velocidade, Interface bluetooth, Rodas de liga leve, Sensor de ré, Teto solar, Trava elétrica, Vidro elétrico, Volante multifuncional"
+        },
+        {
+          "name": "has_gnv_kit",
+          "label": "Possui Kit GNV",
+          "value": "Não"
+        },
+        {
+          "name": "has_auction",
+          "label": "De leilão",
+          "value": "Não"
+        },
+        {
+          "name": "has_paid_ipva",
+          "label": "IPVA pago",
+          "value": "Sim"
+        },
+        {
+          "name": "has_with_fine",
+          "label": "Com multas",
+          "value": "Não"
+        },
+        {
+          "name": "is_settled",
+          "label": "Quitado",
+          "value": "Sim"
+        },
+        {
+          "name": "is_funded",
+          "label": "Financiado",
+          "value": "Não"
+        }
+      ],
+      "votes_bomba": 0,
+      "votes_bom": 0,
+      "created_at": "2026-05-16T15:43:44.273Z"
     }
   ],
-  "nextId": 885,
+  "nextId": 907,
   "voted": {},
   "pending": []
 }

@@ -25,7 +25,6 @@ const drawer = document.getElementById('drawer');
 const drawerTitle = document.getElementById('drawerTitle');
 const drawerList = document.getElementById('drawerList');
 const drawerClose = document.getElementById('drawerClose');
-const driverWarning = document.getElementById('driverWarning');
 
 const { ICONS, PROP_ICONS, init: initIcons } = window.BombaIcons;
 
@@ -256,10 +255,9 @@ async function loadStats() {
     statCars.textContent = r.total;
     statBombas.textContent = r.bombas;
     statBons.textContent = r.bons;
+    // diagnóstico fica só no console (não no UI público)
     if (r.driver && r.driver !== 'kv') {
-      driverWarning.classList.remove('hidden');
-    } else {
-      driverWarning.classList.add('hidden');
+      console.warn('[bombacar] driver =', r.driver, '(esperado: kv)');
     }
   } catch {}
 }
