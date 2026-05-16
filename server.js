@@ -1,7 +1,13 @@
+/**
+ * Servidor Express local (modo dev).
+ *
+ * Em produção (Vercel), os endpoints vivem em /api/*.js como serverless functions.
+ * Este arquivo NÃO é usado pela Vercel — apenas pelo `npm start` local.
+ */
 const express = require('express');
 const path = require('path');
 const axios = require('axios');
-const db = require('./db');
+const store = require('./lib/store');
 const { scrapeCar } = require('./scraper');
 
 const app = express();
@@ -15,7 +21,6 @@ const ALLOWED_IMG_HOSTS = [/(^|\.)olx\.com\.br$/i, /(^|\.)webmotors\.com\.br$/i,
 app.get('/api/img', async (req, res) => {
   const target = req.query.u;
   if (!target || typeof target !== 'string') return res.status(400).end();
-
   let parsed;
   try {
     parsed = new URL(target);
@@ -23,9 +28,7 @@ app.get('/api/img', async (req, res) => {
     return res.status(400).end();
   }
   if (!/^https?:$/.test(parsed.protocol)) return res.status(400).end();
-  if (!ALLOWED_IMG_HOSTS.some((re) => re.test(parsed.hostname))) {
-    return res.status(403).end();
-  }
+  if (!ALLOWED_IMG_HOSTS.some((re) => re.test(parsed.hostname))) return res.status(403).end();
 
   try {
     const upstream = await axios.get(target, {
@@ -40,7 +43,7 @@ app.get('/api/img', async (req, res) => {
     res.setHeader('Cache-Control', 'public, max-age=86400, immutable');
     res.setHeader('Content-Type', upstream.headers['content-type'] || 'image/jpeg');
     upstream.data.pipe(res);
-  } catch (e) {
+  } catch {
     res.status(502).end();
   }
 });
@@ -50,15 +53,12 @@ app.post('/api/cars', async (req, res) => {
   if (!url || typeof url !== 'string') {
     return res.status(400).json({ error: 'Envie uma URL válida.' });
   }
-
-  const existing = db.findByUrl(url);
-  if (existing) {
-    return res.json({ car: existing, alreadyExists: true });
-  }
+  const existing = await store.findByUrl(url);
+  if (existing) return res.json({ car: existing, alreadyExists: true });
 
   try {
     const data = await scrapeCar(url);
-    const car = db.insertCar(data);
+    const car = await store.insertCar(data);
     res.json({ car });
   } catch (err) {
     console.error('Erro scraping:', err.message);
@@ -66,37 +66,33 @@ app.post('/api/cars', async (req, res) => {
   }
 });
 
-app.get('/api/cars/random', (req, res) => {
+app.get('/api/cars/random', async (req, res) => {
   const exclude = (req.query.exclude || '')
     .split(',')
     .map((x) => parseInt(x, 10))
     .filter(Number.isFinite);
-
-  const car = db.randomCar(exclude);
+  const car = await store.randomCar(exclude);
   res.json({ car: car || null });
 });
 
-app.post('/api/cars/:id/vote', (req, res) => {
+app.post('/api/cars/:id/vote', async (req, res) => {
   const id = parseInt(req.params.id, 10);
   const { type } = req.body || {};
+  if (!['bomba', 'bom'].includes(type)) return res.status(400).json({ error: 'Voto inválido.' });
 
-  if (!['bomba', 'bom'].includes(type)) {
-    return res.status(400).json({ error: 'Voto inválido.' });
-  }
-
-  const car = db.addVote(id, type);
+  const car = await store.addVote(id, type);
   if (!car) return res.status(404).json({ error: 'Carro não encontrado.' });
   res.json({ car });
 });
 
-app.get('/api/ranking', (req, res) => {
+app.get('/api/ranking', async (req, res) => {
   const type = req.query.type === 'bom' ? 'bom' : 'bomba';
   const limit = Math.min(parseInt(req.query.limit, 10) || 5, 20);
-  res.json({ ranking: db.ranking(type, limit) });
+  res.json({ ranking: await store.ranking(type, limit) });
 });
 
-app.get('/api/stats', (req, res) => {
-  res.json(db.stats());
+app.get('/api/stats', async (req, res) => {
+  res.json(await store.stats());
 });
 
 app.listen(PORT, () => {

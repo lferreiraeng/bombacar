@@ -6,9 +6,11 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "seed": "node seed.js"
+    "seed": "node seed.js",
+    "sync": "node scripts/push-to-kv.js"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.0",
     "axios": "^1.7.7",
     "cheerio": "^1.0.0",
     "express": "^4.21.0",

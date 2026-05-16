@@ -6,7 +6,7 @@
  * Uso: node seed.js [N]   (default 100)
  */
 const { chromium } = require('playwright');
-const db = require('./db');
+const db = require('./lib/store');
 const { scrapeCar, closeBrowser } = require('./scraper');
 
 const TARGET = parseInt(process.argv[2], 10) || 100;
@@ -109,7 +109,7 @@ async function main() {
   }
   await browser.close();
 
-  const existingUrls = new Set(db.listCars().map((c) => c.url));
+  const existingUrls = new Set((await db.listCars()).map((c) => c.url));
   const fresh = allUrls.filter((x) => !existingUrls.has(x.url));
 
   // Embaralha e mantém diversidade de marca (round-robin por marca)
@@ -155,7 +155,7 @@ async function main() {
         failed++;
         continue;
       }
-      db.insertCar(data);
+      await db.insertCar(data);
       ok++;
       const photos = (data.images || []).length;
       console.log(
@@ -171,7 +171,7 @@ async function main() {
   await closeBrowser();
   console.log(
     `\n✅ Pronto. ${ok} cadastrados, ${failed} falhas em ${fmtTime(Date.now() - t0)}.\n` +
-      `   Total no banco: ${db.listCars().length}`
+      `   Total no banco: ${(await db.listCars()).length}`
   );
 }
 
