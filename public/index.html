@@ -23,13 +23,30 @@
         <span class="brand-text">Bomba<span class="brand-accent">Car</span></span>
       </a>
 
+      <div class="topbar-stats" id="topStats">
+        <div class="stat-pill" title="Carros cadastrados">
+          <i data-icon="car"></i>
+          <strong id="statCars">0</strong>
+          <small>carros</small>
+        </div>
+        <div class="stat-pill bomba" title="Total de bombas">
+          <i data-icon="bomb"></i>
+          <strong id="statBombas">0</strong>
+          <small>bombas</small>
+        </div>
+        <div class="stat-pill bom" title="Total de bons">
+          <i data-icon="star"></i>
+          <strong id="statBons">0</strong>
+          <small>bons</small>
+        </div>
+      </div>
+
       <button id="openCadastro" class="btn-primary btn-compact">
         <i data-icon="plus"></i>
         <span class="btn-label">Cadastrar</span>
       </button>
     </div>
 
-    <!-- Tabs (visível só em mobile) -->
     <nav class="tabs" aria-label="Seções">
       <button class="tab" data-view="vote">🎯 Votar</button>
       <button class="tab" data-view="bomba">💣 Bombas</button>
@@ -41,7 +58,10 @@
     <aside class="side side-left" data-pane="bomba">
       <div class="side-header">
         <span class="side-icon bomba"><i data-icon="bomb"></i></span>
-        <h2>Top Bombas</h2>
+        <div>
+          <h2>Top Bombas</h2>
+          <p id="bombaSummary"></p>
+        </div>
       </div>
       <ul id="rankBomba" class="rank rank-bomba"></ul>
     </aside>
@@ -72,7 +92,10 @@
     <aside class="side side-right" data-pane="bom">
       <div class="side-header">
         <span class="side-icon bom"><i data-icon="star"></i></span>
-        <h2>Top Bons</h2>
+        <div>
+          <h2>Top Bons</h2>
+          <p id="bomSummary"></p>
+        </div>
       </div>
       <ul id="rankBom" class="rank rank-bom"></ul>
     </aside>
@@ -85,7 +108,7 @@
         <span class="modal-icon"><i data-icon="link"></i></span>
         <div>
           <h2>Cadastrar carro</h2>
-          <p>Cole o link de um anúncio da <strong>OLX</strong>.</p>
+          <p>Cole o link de um anúncio da <strong>OLX</strong>. Vai pra fila e aparece em alguns minutos.</p>
         </div>
       </header>
       <form id="formCadastro">
@@ -105,6 +128,13 @@
         </button>
         <div id="formMsg" class="msg" role="status"></div>
       </form>
+    </div>
+  </div>
+
+  <div id="cookieBanner" class="cookie-banner hidden">
+    <div class="cookie-content">
+      <span>🍪 A gente usa cookies só pra lembrar dos carros que você já viu e do seu voto por carro. Nada mais.</span>
+      <button id="acceptCookies" class="btn-primary btn-compact">Beleza</button>
     </div>
   </div>
 

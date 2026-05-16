@@ -4,6 +4,11 @@ const voteBomBtn = document.getElementById('voteBom');
 const skipBtn = document.getElementById('skip');
 const rankBomba = document.getElementById('rankBomba');
 const rankBom = document.getElementById('rankBom');
+const bombaSummary = document.getElementById('bombaSummary');
+const bomSummary = document.getElementById('bomSummary');
+const statCars = document.getElementById('statCars');
+const statBombas = document.getElementById('statBombas');
+const statBons = document.getElementById('statBons');
 
 const modal = document.getElementById('modal');
 const openCadastro = document.getElementById('openCadastro');
@@ -13,19 +18,20 @@ const urlInput = document.getElementById('urlInput');
 const formMsg = document.getElementById('formMsg');
 const submitBtn = document.getElementById('submitBtn');
 
+const cookieBanner = document.getElementById('cookieBanner');
+const acceptCookies = document.getElementById('acceptCookies');
+
 const { ICONS, PROP_ICONS, init: initIcons } = window.BombaIcons;
 
 let currentCar = null;
 let currentPhotoIdx = 0;
 
 const SEEN_KEY = 'bombacar.seen.v1';
+const COOKIE_KEY = 'bombacar.cookies.v1';
+
 function loadSeen() {
-  try {
-    const raw = localStorage.getItem(SEEN_KEY);
-    return new Set(raw ? JSON.parse(raw) : []);
-  } catch {
-    return new Set();
-  }
+  try { return new Set(JSON.parse(localStorage.getItem(SEEN_KEY) || '[]')); }
+  catch { return new Set(); }
 }
 function saveSeen() {
   try { localStorage.setItem(SEEN_KEY, JSON.stringify([...seen])); } catch {}
@@ -34,17 +40,24 @@ const seen = loadSeen();
 
 const escapeHtml = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-
 const proxyImg = (url) => (url ? '/api/img?u=' + encodeURIComponent(url) : '');
 const iconSvg = (n) => ICONS[n] || ICONS.info;
 const propIcon = (label) => iconSvg(PROP_ICONS[label] || 'info');
 
-/* ============================================================ TABS (mobile) */
+/* ============================================================ COOKIE BANNER */
+if (!localStorage.getItem(COOKIE_KEY)) cookieBanner.classList.remove('hidden');
+acceptCookies.addEventListener('click', () => {
+  localStorage.setItem(COOKIE_KEY, '1');
+  cookieBanner.classList.add('hidden');
+});
+
+/* ============================================================ TABS */
 const tabs = document.querySelectorAll('.tab');
 function setView(view) {
   document.body.dataset.view = view;
   tabs.forEach((t) => t.classList.toggle('active', t.dataset.view === view));
   if (view === 'bomba' || view === 'bom') loadRanking();
+  if (view === 'vote' && !currentCar) loadCar();
 }
 tabs.forEach((t) => t.addEventListener('click', () => setView(t.dataset.view)));
 setView('vote');
@@ -146,12 +159,9 @@ function renderCard(car) {
   enableSwipe(cardArea.querySelector('.gallery'), photos.length);
 }
 
-/* Swipe horizontal na galeria pra trocar foto */
 function enableSwipe(el, total) {
   if (!el || total <= 1) return;
-  let startX = 0;
-  let startY = 0;
-  let active = false;
+  let startX = 0, startY = 0, active = false;
   el.addEventListener('touchstart', (e) => {
     if (e.touches.length !== 1) return;
     startX = e.touches[0].clientX;
@@ -210,13 +220,17 @@ async function vote(type) {
   const id = currentCar.id;
   setTimeout(async () => {
     try {
-      await fetch(`/api/cars/${id}/vote`, {
+      const r = await fetch(`/api/cars/${id}/vote`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ type }),
       });
+      const data = await r.json();
+      if (data.alreadyVoted) {
+        // sem alarde — usuário já votou nesse, segue
+      }
     } catch {}
-    await Promise.all([loadCar(), loadRanking()]);
+    await Promise.all([loadCar(), loadRanking(), loadStats()]);
   }, 380);
 }
 
@@ -229,41 +243,88 @@ function skip() {
   setTimeout(loadCar, 380);
 }
 
-/* ============================================================ RANKING (por modelo) */
-async function loadRanking() {
-  const [bombas, bons] = await Promise.all([
-    fetch('/api/ranking?type=bomba&limit=10').then((r) => r.json()),
-    fetch('/api/ranking?type=bom&limit=10').then((r) => r.json()),
-  ]);
-  renderRank(rankBomba, bombas.ranking, 'bomba');
-  renderRank(rankBom, bons.ranking, 'bom');
+/* ============================================================ STATS */
+async function loadStats() {
+  try {
+    const r = await fetch('/api/stats').then((r) => r.json());
+    statCars.textContent = r.total;
+    statBombas.textContent = r.bombas;
+    statBons.textContent = r.bons;
+  } catch {}
 }
 
-function renderRank(el, list, type) {
+/* ============================================================ RANKING (por modelo, expansível) */
+async function loadRanking() {
+  const [bombas, bons] = await Promise.all([
+    fetch('/api/ranking?type=bomba&limit=999').then((r) => r.json()),
+    fetch('/api/ranking?type=bom&limit=999').then((r) => r.json()),
+  ]);
+  renderRank(rankBomba, bombas.ranking, 'bomba', bombaSummary);
+  renderRank(rankBom, bons.ranking, 'bom', bomSummary);
+}
+
+function renderRank(el, list, type, summaryEl) {
+  if (summaryEl) {
+    const totalVotes = list.reduce((s, g) => s + g.votes, 0);
+    summaryEl.textContent = list.length
+      ? `${list.length} modelo${list.length > 1 ? 's' : ''} · ${totalVotes} voto${totalVotes > 1 ? 's' : ''}`
+      : '';
+  }
   if (!list || list.length === 0) {
     el.innerHTML = '<li class="empty">Sem votos ainda</li>';
     return;
   }
   const emoji = type === 'bomba' ? '💣' : '⭐';
+  const voteKey = type === 'bomba' ? 'votes_bomba' : 'votes_bom';
+
   el.innerHTML = list
     .map((g, i) => {
       const img = g.image
         ? `<img src="${escapeHtml(proxyImg(g.image))}" alt="" loading="lazy" />`
         : `<div class="img-placeholder"></div>`;
+      const adsHtml = (g.cars || [])
+        .filter((c) => (c[voteKey] || 0) > 0)
+        .map((c) => {
+          const adImg = c.image
+            ? `<img src="${escapeHtml(proxyImg(c.image))}" alt="" loading="lazy" />`
+            : `<div class="img-placeholder"></div>`;
+          return `
+            <a class="ad" href="${escapeHtml(c.url)}" target="_blank" rel="noopener">
+              ${adImg}
+              <div class="ad-info">
+                <div class="ad-title">${escapeHtml(c.title)}</div>
+                <div class="ad-meta">
+                  ${c.price ? `<span class="price">${escapeHtml(c.price)}</span>` : ''}
+                  <span class="votes">${emoji} ${c[voteKey]}</span>
+                </div>
+              </div>
+            </a>`;
+        })
+        .join('');
       return `
-        <li>
-          <span class="rank-pos">#${i + 1}</span>
-          ${img}
-          <div class="info">
-            <div class="title">${escapeHtml(g.label)}</div>
-            <div class="meta">
-              <span class="v">${emoji} ${g.votes}</span>
-              <span class="c">· ${g.count} anúncio${g.count > 1 ? 's' : ''}</span>
+        <li class="group" data-key="${escapeHtml(g.key)}">
+          <div class="group-head">
+            <span class="rank-pos">#${i + 1}</span>
+            ${img}
+            <div class="info">
+              <div class="title">${escapeHtml(g.label)}</div>
+              <div class="meta">
+                <span class="v">${emoji} ${g.votes}</span>
+                <span class="c">· ${g.count} anúncio${g.count > 1 ? 's' : ''}</span>
+              </div>
             </div>
+            <span class="chev">›</span>
           </div>
+          <div class="group-body">${adsHtml || '<div style="color:var(--muted);font-size:12px;padding:6px">Nenhum anúncio com voto</div>'}</div>
         </li>`;
     })
     .join('');
+
+  el.querySelectorAll('li.group .group-head').forEach((head) => {
+    head.addEventListener('click', () => {
+      head.parentElement.classList.toggle('open');
+    });
+  });
 }
 
 /* ============================================================ EVENTS */
@@ -294,7 +355,7 @@ formCadastro.addEventListener('submit', async (e) => {
   const url = urlInput.value.trim();
   if (!url) return;
   submitBtn.disabled = true;
-  formMsg.textContent = 'Buscando...';
+  formMsg.textContent = 'Enviando...';
   formMsg.className = 'msg';
   try {
     const res = await fetch('/api/cars', {
@@ -306,13 +367,18 @@ formCadastro.addEventListener('submit', async (e) => {
     if (!res.ok) {
       formMsg.textContent = data.error || 'Erro.';
       formMsg.className = 'msg error';
-    } else {
-      formMsg.textContent = data.alreadyExists ? 'Já existia!' : `✓ ${data.car.title}`;
+    } else if (data.alreadyExists) {
+      formMsg.textContent = `✓ Já estava cadastrado: ${data.car.title}`;
       formMsg.className = 'msg success';
-      urlInput.value = '';
-      await Promise.all([loadCar(), loadRanking()]);
-      setTimeout(() => modal.classList.add('hidden'), 1100);
+    } else if (data.queued) {
+      formMsg.textContent = `✓ Na fila! (${data.pending || 1} aguardando)`;
+      formMsg.className = 'msg success';
+    } else if (data.car) {
+      formMsg.textContent = `✓ Cadastrado: ${data.car.title}`;
+      formMsg.className = 'msg success';
     }
+    urlInput.value = '';
+    setTimeout(() => modal.classList.add('hidden'), 1500);
   } catch {
     formMsg.textContent = 'Erro de rede.';
     formMsg.className = 'msg error';
@@ -324,5 +390,7 @@ formCadastro.addEventListener('submit', async (e) => {
 /* ============================================================ INIT */
 loadCar();
 loadRanking();
+loadStats();
 
-setInterval(loadRanking, 30000);
+// auto-refresh
+setInterval(() => { loadRanking(); loadStats(); }, 20000);
