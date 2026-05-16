@@ -21,6 +21,12 @@ const submitBtn = document.getElementById('submitBtn');
 const cookieBanner = document.getElementById('cookieBanner');
 const acceptCookies = document.getElementById('acceptCookies');
 
+const drawer = document.getElementById('drawer');
+const drawerTitle = document.getElementById('drawerTitle');
+const drawerList = document.getElementById('drawerList');
+const drawerClose = document.getElementById('drawerClose');
+const driverWarning = document.getElementById('driverWarning');
+
 const { ICONS, PROP_ICONS, init: initIcons } = window.BombaIcons;
 
 let currentCar = null;
@@ -250,8 +256,106 @@ async function loadStats() {
     statCars.textContent = r.total;
     statBombas.textContent = r.bombas;
     statBons.textContent = r.bons;
+    if (r.driver && r.driver !== 'kv') {
+      driverWarning.classList.remove('hidden');
+    } else {
+      driverWarning.classList.add('hidden');
+    }
   } catch {}
 }
+
+/* ============================================================ DRAWER (lista clicável) */
+async function openDrawer(kind) {
+  drawer.classList.remove('hidden');
+  drawerList.innerHTML = '<li class="empty">Carregando...</li>';
+
+  let title, url, type;
+  if (kind === 'all') {
+    title = 'Todos os carros';
+    url = '/api/ranking?type=bomba&all=true&limit=999';
+    type = 'bomba';
+  } else if (kind === 'bomba') {
+    title = 'Top Bombas';
+    url = '/api/ranking?type=bomba&limit=999';
+    type = 'bomba';
+  } else {
+    title = 'Top Bons';
+    url = '/api/ranking?type=bom&limit=999';
+    type = 'bom';
+  }
+  drawerTitle.textContent = title;
+  drawerList.className = 'rank rank-' + type;
+
+  try {
+    const r = await fetch(url).then((r) => r.json());
+    const list = r.ranking || [];
+    if (!list.length) {
+      drawerList.innerHTML = '<li class="empty">Nenhum modelo</li>';
+      return;
+    }
+    renderRankInto(drawerList, list, type, kind === 'all');
+  } catch {
+    drawerList.innerHTML = '<li class="empty">Erro ao carregar</li>';
+  }
+}
+
+function renderRankInto(el, list, type, showCountOnly) {
+  const emoji = type === 'bomba' ? '💣' : '⭐';
+  const voteKey = type === 'bomba' ? 'votes_bomba' : 'votes_bom';
+
+  el.innerHTML = list
+    .map((g, i) => {
+      const img = g.image
+        ? `<img src="${escapeHtml(proxyImg(g.image))}" alt="" loading="lazy" />`
+        : `<div class="img-placeholder"></div>`;
+      const adsHtml = (g.cars || [])
+        .filter((c) => showCountOnly ? true : (c[voteKey] || 0) > 0)
+        .map((c) => {
+          const adImg = c.image
+            ? `<img src="${escapeHtml(proxyImg(c.image))}" alt="" loading="lazy" />`
+            : `<div class="img-placeholder"></div>`;
+          return `
+            <a class="ad" href="${escapeHtml(c.url)}" target="_blank" rel="noopener">
+              ${adImg}
+              <div class="ad-info">
+                <div class="ad-title">${escapeHtml(c.title)}</div>
+                <div class="ad-meta">
+                  ${c.price ? `<span class="price">${escapeHtml(c.price)}</span>` : ''}
+                  ${(c[voteKey] || 0) > 0 ? `<span class="votes">${emoji} ${c[voteKey]}</span>` : ''}
+                </div>
+              </div>
+            </a>`;
+        })
+        .join('');
+      const metaRight = showCountOnly
+        ? `<span class="c">${g.count} anúncio${g.count > 1 ? 's' : ''}</span>`
+        : `<span class="v">${emoji} ${g.votes}</span><span class="c">· ${g.count} anúncio${g.count > 1 ? 's' : ''}</span>`;
+      return `
+        <li class="group" data-key="${escapeHtml(g.key)}">
+          <div class="group-head">
+            <span class="rank-pos">#${i + 1}</span>
+            ${img}
+            <div class="info">
+              <div class="title">${escapeHtml(g.label)}</div>
+              <div class="meta">${metaRight}</div>
+            </div>
+            <span class="chev">›</span>
+          </div>
+          <div class="group-body">${adsHtml || '<div style="color:var(--muted);font-size:12px;padding:6px">—</div>'}</div>
+        </li>`;
+    })
+    .join('');
+
+  el.querySelectorAll('li.group .group-head').forEach((head) => {
+    head.addEventListener('click', () => head.parentElement.classList.toggle('open'));
+  });
+}
+
+document.querySelectorAll('.stat-pill[data-list]').forEach((btn) => {
+  btn.addEventListener('click', () => openDrawer(btn.dataset.list));
+});
+drawerClose.addEventListener('click', () => drawer.classList.add('hidden'));
+drawer.addEventListener('click', (e) => { if (e.target === drawer) drawer.classList.add('hidden'); });
 
 /* ============================================================ RANKING (por modelo, expansível) */
 async function loadRanking() {

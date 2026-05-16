@@ -100,7 +100,8 @@ app.post('/api/cars/:id/vote', async (req, res) => {
 app.get('/api/ranking', async (req, res) => {
   const type = req.query.type === 'bom' ? 'bom' : 'bomba';
   const limit = Math.min(parseInt(req.query.limit, 10) || 999, 999);
-  res.json({ ranking: await store.ranking(type, limit) });
+  const all = req.query.all === 'true' || req.query.all === '1';
+  res.json({ ranking: await store.ranking(type, limit, { includeUnvoted: all }) });
 });
 
 app.get('/api/stats', async (req, res) => {
